@@ -1,12 +1,34 @@
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 class KeyManager {
   constructor(keyPath = './keys') {
-    this.keyPath = keyPath;
-    this.privateKeyPath = path.join(keyPath, 'private.pem');
-    this.publicKeyPath = path.join(keyPath, 'public.pem');
+    // Default keyPath may not be writable in serverless environments (Vercel).
+    // Prefer an explicit environment override, otherwise try the provided path
+    // and fall back to the system temp directory if it's not writable.
+    const envPath = process.env.KEY_PATH;
+    let resolvedPath = envPath || keyPath;
+
+    // If resolvedPath is not writable, use OS temp directory
+    try {
+      const testDir = path.resolve(resolvedPath);
+      // Ensure parent exists (but avoid throwing if we can't create it)
+      fs.mkdirSync(testDir, { recursive: true });
+      // Try writing a tiny temp file to validate writability
+      const testFile = path.join(testDir, '.writetest');
+      fs.writeFileSync(testFile, 'ok');
+      fs.unlinkSync(testFile);
+    } catch (err) {
+      // Fall back to OS temp directory when original path is not writable
+      resolvedPath = path.join(os.tmpdir(), 'certificate-keys');
+      fs.mkdirSync(resolvedPath, { recursive: true });
+    }
+
+    this.keyPath = resolvedPath;
+    this.privateKeyPath = path.join(this.keyPath, 'private.pem');
+    this.publicKeyPath = path.join(this.keyPath, 'public.pem');
     this.publicKey = null;
     this.privateKey = null;
     
