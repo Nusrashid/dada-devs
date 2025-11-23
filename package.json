@@ -1,0 +1,19 @@
+{
+  "name": "certificate-signature-system",
+  "version": "1.0.0",
+  "description": "Digital certificate signature and verification system for Bitcoin Dada & DadaDevs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["certificate", "digital-signature", "verification", "rsa"],
+  "author": "Bitcoin Dada & DadaDevs",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdfkit": "^0.13.0",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.0"
+  }
+}

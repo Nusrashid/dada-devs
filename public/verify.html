@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Verification - Bitcoin Dada & DadaDevs</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bitcoin Dada & DadaDevs</h1>
+      <h2>Certificate Verification</h2>
+    </header>
+
+    <main>
+      <div id="manualInput" class="manual-input">
+        <p>Enter a certificate ID to verify, or scan the QR code on a certificate.</p>
+        <div class="info-box">
+          <p><strong>Note:</strong> The certificate ID is a UUID format like:</p>
+          <p style="font-family: monospace; font-size: 13px; color: #667eea;">e04133b8-c30c-42ac-a090-74088e521b53</p>
+          <p style="font-size: 13px; margin-top: 8px;">You can find it on the certificate PDF or in the success message after generation.</p>
+        </div>
+        <form id="verifyForm">
+          <div class="form-group">
+            <input 
+              type="text" 
+              id="certificateIdInput" 
+              placeholder="e.g., e04133b8-c30c-42ac-a090-74088e521b53"
+              required
+            >
+          </div>
+          <button type="submit">Verify Certificate</button>
+        </form>
+      </div>
+
+      <div id="loading" class="loading hidden">
+        <p>Verifying certificate...</p>
+      </div>
+
+      <div id="result" class="result hidden">
+        <div id="statusIndicator" class="status-indicator"></div>
+        
+        <div id="certificateDetails" class="certificate-details hidden">
+          <h3>Certificate Details</h3>
+          <div class="detail-row">
+            <span class="label">Student Name:</span>
+            <span id="studentName" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Cohort:</span>
+            <span id="cohort" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Issue Date:</span>
+            <span id="issueDate" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Certificate ID:</span>
+            <span id="certificateId" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Issuer:</span>
+            <span id="issuer" class="value"></span>
+          </div>
+        </div>
+
+        <div id="errorMessage" class="error-message hidden"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/js/verify.js"></script>
+</body>
+</html>

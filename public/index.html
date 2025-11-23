@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Issuance - Bitcoin Dada & DadaDevs</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bitcoin Dada & DadaDevs</h1>
+      <h2>Certificate Issuance System</h2>
+    </header>
+
+    <main>
+      <form id="certificateForm">
+        <div class="form-group">
+          <label for="studentName">Student Name *</label>
+          <input 
+            type="text" 
+            id="studentName" 
+            name="studentName" 
+            required 
+            maxlength="100"
+            placeholder="Enter student full name"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="cohort">Cohort *</label>
+          <input 
+            type="text" 
+            id="cohort" 
+            name="cohort" 
+            required 
+            maxlength="100"
+            placeholder="e.g., 2024-Q1"
+          >
+        </div>
+
+        <button type="submit" id="submitBtn">Generate Certificate</button>
+      </form>
+
+      <div id="message" class="message hidden"></div>
+    </main>
+  </div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

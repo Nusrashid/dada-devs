@@ -1,0 +1,52 @@
+{
+  "certificates": [
+    {
+      "id": "e04133b8-c30c-42ac-a090-74088e521b53",
+      "studentName": "Wenslauce Chengo",
+      "cohort": "2025-Q1-023",
+      "issueDate": "2025-11-23T16:35:37.610Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "KYEOByVN9ifoSubX6D2ZuaFTyRUgDafwn+Nxm4/TblK5rlGjSjLBSpaa+DfLjXbQ+jEdqFyNOlCzh+qywT2kFABZWNXlfCosHIaFm4LJmSgYyGjEbdzqABrTMl1fYUMmcf5S/kuIUZ+twbfNBoJpvI5FRCZY3k30dhHJIex6wmRbDS4ghsgnp+2gJNWe+VoYzwaKKfoNuiNpTLngSpg4FrHt3tcCicGcZ0yE10QRrhgpozlxzgY6A9KqFzzvJbGSqLt6n5s9KJg2upexkLDCIuomGqLpvZLf6h5t2tzGCbBFCA89017V03KmkbLGa3WdIPjgjzUqUjbKIOT6O1c7IA=="
+    },
+    {
+      "id": "081f480b-a236-43b1-a838-95aafd7dd865",
+      "studentName": "Wenslauce Chengo",
+      "cohort": "2025-Q1-023",
+      "issueDate": "2025-11-23T16:35:38.025Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "YyeXVZtjTR+1dFZyyy5wzj4p8R0ZXXR1RuP9kgtTHX+CrYgufbuSMpe/f1nISc3JS1Tm5QQ3tBhdRZ6+fvJ039t9VvzpZpRsk0mTYQKMR/ldRC3FOXInwxnBqYd8ubwsmugr3heLKnfeSvJtb10Uz6Uqc67arL4S5C7FYsKz8P5wlUiH7pZ7FJhbCAAyq8BgGSKT+9CW1TGt+N23meLsVgVDamJMVHch1zoAK1H91S90pcCYpSr5ipqEhLCC34sQmJspCNyFjb1sKmFfbbY2brGbiqx4EuAB6ZpH5bu5WUz+ZAy5Z20txceLQuqOK5xUiIgnBfG6DKtOTsOIWkyYhA=="
+    },
+    {
+      "id": "7e2ba29d-a9f8-4026-8ff5-094afef3f234",
+      "studentName": "Nusra Hassan",
+      "cohort": "2025-Q1-025",
+      "issueDate": "2025-11-23T16:44:39.173Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "ZZKEkhdEH5IjmTd0yAIrUfP/OcUkjIxn0tURZJgThp/uubwJh9NLq0RyrjNrit7kiOrN8dMFWt0thF9JwkbFs57oBm0NDi4Xiv/x40s+zJYGcleZnzfHUGvAYj1WTE8MDGUYRySHxDj1q8xAh9QcMoPCMkcFoEJLbPrBK+95aZgrdDZeD1y8jLwaMU4vXaLTjXRqAXbg/mHZxU6DJHiWFRwJ4LF1WtV5bXMH5ovwLUQby4FQjLSxouBQK5y6N4CGPaqf69Zmo9QHVqqD46z5dsOlq2GL0XlWLgd6vWg6T01QjADB/pnHwyJNPXVjdwNondOvpJk0aYQQ8EtRz4y8xw=="
+    },
+    {
+      "id": "27419b5e-6d2d-4a37-90e5-f7e59d90644f",
+      "studentName": "Nusra Hassan",
+      "cohort": "2025-Q1-025",
+      "issueDate": "2025-11-23T16:44:39.306Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "KuDhQXAt6koLKV9bPdrsI327cXYZ75YN6tgIWxIvMbLvCjzwyJEi3qq2pe0DqBDYpZfrH2e0XAEmuNbEs00mv6F8KVFej1O7ndseGXGsrEO8wuUCpZGIVcotKHb/Y8REdL6AZ3sYQ4MJrvEZUaj0YTLlvOpXIzAiKZ3Zt+JOm524K1aUp9EmUJcDbAJdG8mgDfzfiTBtwhyC8RZaCAEQ8uPt1mxidAc8RoCjky95rDtY0X9n9CaaHwLuS6fonXGziyIPSItZcgaGznU/LaHTgYttN+zArKtqyI2tuObP3gOu0HKwF0HWLcq/HD1QNAySx1aogjnSgXEmarDvHnBTlQ=="
+    },
+    {
+      "id": "1866d7e3-56dc-46ae-afa9-9cfe49652c16",
+      "studentName": "Wenslauce O Chengo",
+      "cohort": "2025-Q1-025",
+      "issueDate": "2025-11-23T16:56:12.927Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "Ntp2tSuRiv5sy05kxe+uox+ujaRGv3IiIN6nubaOOJYTFr8zFaRiG5hXx9F2cIV4za1OCcfIzVs8MBSu7h3UE2C3x5CVZqX0SZbcCTyDkwGDGWvggH82Tg40GwFvHzY0jfp2/UGtVJcHGHfIJvW+YTpSFGztVIj++yBkj/aw2wylRU+gxvk5Fy1MT9QNZi7DCc29Vs5C3KHO/oDE63XCpsxbruA3SAWK8U7AIQ3Za9+bk/eT9c4TV/iK0WkWl/XFKec4QvdP7BJVvBwKHPtCJG50Sqg09X30V8jAdLizafw3oMNxtT58BX/I7xUDnhGYeEfTy/YRLOXFQS4WZIzgmQ=="
+    },
+    {
+      "id": "2f9097b8-c7e5-4d2c-8a6e-cf5d88b8c8c1",
+      "studentName": "Wenslauce C",
+      "cohort": "2025-Q1-29",
+      "issueDate": "2025-11-23T17:06:03.948Z",
+      "issuer": "Bitcoin Dada & DadaDevs",
+      "signature": "ZUTBEI5MWlVAuGjVGCUxahWx643hMc0iFOGxmrKhsKwi7l6ZNG+2XiQds5NhAAUZlRgAhoaWko2PtlWlTdUOYcM3UdJR57wgRG/9ksGTIJYOjlaPUkahIQa8XuzWWKBX8nBe1RNSG6QMjZiROVZo7d39/D/ww/Q3mqZ7FFgPEcS9CMFO6OjntTML3VIMkb65qhGh81FRFaYkP5Zrlobwiza0NsNv4g9UajQEq8Fa9HfX20f+jC2koVEBPKrJyDSXVf9B38dOKZhFQyK/AWTXVwKCaXzqk+tICM5zlr4h4vIE0cD4OPYWqLAaWqnCbGlz/K1GiVGVXYk0Auw9OClttQ=="
+    }
+  ]
+}
